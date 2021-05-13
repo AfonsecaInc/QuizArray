@@ -11,9 +11,7 @@ function eliminarPrimero(){
     console.log("El orden1 sin el primer elemento: " + orden1.toString())
 }
 
-function unir(){
-    console.log(orden1)
-    console.log(orden2)
+function unir(){    
     var unidos = orden1.concat(orden2)
     console.log(unidos)
 }
